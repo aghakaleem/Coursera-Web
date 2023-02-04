@@ -1,0 +1,133 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  #nav-list {
+    text-align: center;
+  }
+
+  .navbar>.container {
+
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+.navbar-toggler {
+  float: right;
+  margin-right: 10px;
+}
+
+
+#collapsable-nav {
+  clear: both;
+  padding-top: 5px;
+ 
+}
+.nav-item {
+  border: 1px black solid;
+  background-color: #fff;
+}
+
+  #header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+   padding-bottom: 0;
+   
+  }
+
+ 
+
+  .navbar-brand {
+    
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+    size: 1.2vw;
+  }
+
+  .navbar-toggler {
+    margin-top: 5px !important;
+  } 
+
+  .navbar-brand h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+ 
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a{
+    text-decoration: none;
+  }
+
+
+/*Our Menu Heading*/
+#heading {
+  margin: 10px auto 15px auto;
+}
+
+/*Container*/
+#categories {
+  height: 1000px;
+}
+
+
+/*Every Section in container*/
+.theSection {
+  background-color: gray;
+  position: relative;
+  height: auto;
+ width: 93%;
+
+  margin: auto 15px 15px 15px
+}
+
+
+/*medium to large screens*/
+@media (min-width: 768px){
+  .theSection {
+    width: 29%;
+    margin: auto 15px auto 15px;
+  }
+
+  
+}
+/*Small Screens*/
+@media (min-width: 576px) and (max-width: 767px){
+  
+  .middle {
+    width: 44.445%;
+    margin: auto 15px auto 15px;
+  }
+.lower-middle {
+ margin: 30px 15px auto 15px;
+ width: 95%;
+}
+
+/* Smallest Screens */
+
+@media (max-width: 575px){
+
+  #categories {
+    margin: 0%;
+  }
+    .theSection {
+      margin: auto 15px auto 15px !important;
+    }
+  }
+
+
+  
+}
+
+
+
